@@ -23,7 +23,8 @@ const fetchData = async (url) => {
       })
       .join('')
   } catch (error) {
-    result.innerHTML = `<h5>${error.response.data}<h5/>`
+    result.innerHTML = `<h2 class="error multiline text-center ">${error.response.data}</h2>`
+    result.classList = ''
   }
 }
 

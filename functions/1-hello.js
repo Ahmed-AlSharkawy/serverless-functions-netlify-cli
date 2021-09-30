@@ -7,4 +7,3 @@ exports.handler = async (event, context, cb) => {
     body: 'Our First Netlify Function Example\nHello World',
   }
 }
-;``
